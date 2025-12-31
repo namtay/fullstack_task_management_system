@@ -13,6 +13,7 @@ const BlankLayout = Loadable(lazy(() => import('../layouts/blank/BlankLayout')))
 
 // Dashboard
 const Dashboard = Loadable(lazy(() => import('../views/dashboards/Dashboard')));
+const TaskDashboard = Loadable(lazy(() => import('../views/dashboards/Dashboard_tasks')));
 
 // utilities
 const Typography = Loadable(lazy(() => import("../views/typography/Typography")));
@@ -35,6 +36,7 @@ const Router = [
     element: <FullLayout />,
     children: [
       { path: '/', exact: true, element: <Dashboard/> },
+      { path: '/tasks', exact: true, element: <TaskDashboard /> },
       { path: '/ui/typography', exact: true, element: <Typography/> },
       { path: '/ui/table', exact: true, element: <Table/> },
       { path: '/ui/form', exact: true, element: <Form/> },
