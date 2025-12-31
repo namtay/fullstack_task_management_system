@@ -38,11 +38,11 @@ const FullLayout: FC = () => {
                 <p className="text-base pb-10">
                   Design and Developed by{" "}
                   <Link
-                    to="https://wrappixel.com/"
+                    to="https://namtay.github.io/portfolio/"
                     target="_blank"
                     className="pl-1 text-primary underline decoration-primary"
                   >
-                    wrappixel.com
+                    Christabel Technologies
                   </Link>
                 </p>
               </div>

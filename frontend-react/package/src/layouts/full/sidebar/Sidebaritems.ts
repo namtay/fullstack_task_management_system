@@ -34,6 +34,13 @@ const SidebarContent: MenuItem[] = [
         url: "/",
         isPro: false,
       },
+      {
+        name: "Task Dashboard",
+        icon: "solar:widget-add-line-duotone",
+        id: uniqueId(),
+        url: "/tasks",
+        isPro: false,
+      },
       // {
       //   name: "eCommerce",
       //   icon: "solar:atom-line-duotone",
