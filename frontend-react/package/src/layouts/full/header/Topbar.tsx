@@ -57,7 +57,9 @@ const Topbar = () => {
             <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
                 <div className="md:flex hidden items-center gap-5">
                     <Link target="_black" to="https://www.wrappixel.com">
-                        <img src={task_management_logo} alt="logo"  width={147}/> 
+                        <img src={
+                            wrappixel_logo
+                        } alt="logo"  width={147}/> 
                     </Link>
                     <div className="xl:flex items-center gap-4 pl-5 border-l border-opacity-20 border-white hidden">
                       
